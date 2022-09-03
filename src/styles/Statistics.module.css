@@ -1,0 +1,27 @@
+.statistics {
+  display: inline-block;
+  vertical-align: top;
+  padding: 5px 10px;
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+.statistics__heading {
+  margin-left: 10px;
+  color: #1da1f2;
+  text-transform: uppercase;
+}
+
+.statistics__count {
+  color: var(--input-color);
+}
+
+@media (max-width: 980px) {
+  .statistics {
+    display: block;
+    max-width: 335px;
+    margin: 0 auto 10px;
+    text-align: center;
+  }
+}
